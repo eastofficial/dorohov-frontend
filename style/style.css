@@ -475,7 +475,34 @@ header {
 .job {
   position: relative;
   background: #40424D;
-  padding: 100px 0 100px 0; }
+  padding: 100px 0 100px 0;
+  font-family: 'Roboto', sans-serif; }
+  .job h1 {
+    color: #FFFFFF; }
+  .job .row-2-job {
+    margin-top: 80px; }
+  .job .text-content {
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    font-size: 18px;
+    color: #FFFFFF; }
+  .job .text {
+    display: flex;
+    align-items: center; }
+    .job .text .text-number {
+      font-style: normal;
+      font-weight: bold;
+      line-height: normal;
+      font-size: 144px;
+      color: #57BA47; }
+    .job .text .text-number-description {
+      font-style: normal;
+      font-weight: bold;
+      line-height: normal;
+      font-size: 24px;
+      color: #FFFFFF;
+      margin-left: 15px; }
   .job .job-bg-noise {
     position: absolute;
     top: 0;
@@ -703,6 +730,22 @@ header {
   .partners-element-visible {
     display: block; } }
 @media (max-width: 768px) {
+  .job {
+    padding: 15px 0 15px 0; }
+    .job h1 {
+      font-size: 40px !important; }
+    .job .row-2-job {
+      display: none; }
+    .job .text-content {
+      font-style: normal;
+      font-weight: 300;
+      line-height: normal;
+      font-size: 15px; }
+    .job .text .text-number {
+      font-size: 70px; }
+    .job .text .text-number-description {
+      font-size: 12px; }
+
   .contacts .google-map {
     display: none; }
   .contacts h1 {

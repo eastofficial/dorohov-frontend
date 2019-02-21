@@ -2,6 +2,46 @@
     position: relative;
     background: $color4;
     padding: 100px 0 100px 0;
+    font-family: 'Roboto', sans-serif;
+
+    h1 {
+        color: #FFFFFF;
+    }
+
+    .row-2-job {
+        margin-top: 80px;
+    }
+
+    .text-content {
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        font-size: 18px;
+        color: #FFFFFF;
+    }
+
+    .text {
+        display: flex;
+        align-items: center;
+
+        .text-number {
+            font-style: normal;
+            font-weight: bold;
+            line-height: normal;
+            font-size: 144px;
+            color: $color2;
+        }
+
+        .text-number-description {
+            font-style: normal;
+            font-weight: bold;
+            line-height: normal;
+            font-size: 24px;
+            color: #FFFFFF;
+            margin-left: 15px;
+        }
+    }
+
     .job-bg-noise {
         position: absolute;
         top: 0;

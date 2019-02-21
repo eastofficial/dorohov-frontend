@@ -101,6 +101,34 @@
 
 @media (max-width: 768px) {
     
+    .job {
+        padding: 15px 0 15px 0;
+        h1 {
+            font-size: 40px !important;
+        }
+
+        .row-2-job {
+            display: none;
+        }
+
+        .text-content {
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+            font-size: 15px;
+        }
+
+        .text {
+            .text-number {
+                font-size: 70px;
+            }
+
+            .text-number-description {
+                font-size: 12px;
+            }
+        }
+    }
+
     .contacts {
         .google-map {
             display: none;
