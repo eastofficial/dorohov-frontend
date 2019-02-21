@@ -1,5 +1,16 @@
 .services {
     background: $color4;
+    position: relative;
+    padding-bottom: 40px;
+
+    .v220 {
+        position: absolute;
+        right: 0;
+        top: 5%;
+        background: url("../images/img/220v.png") no-repeat;
+        width: 881px;
+        height: 293px;
+    }
     h1 {
         color: #FFFFFF; 
         margin-top: 123px;
