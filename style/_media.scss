@@ -81,6 +81,12 @@
             }
         }
     }
+
+    .footer {
+        .box-center {
+            display: none;
+        }
+    }
 }
 
 @media (max-width: 890px) { 
@@ -119,6 +125,34 @@
                 margin: 5px;
                 width: 115px;
                 height: 115px;
+            }
+        }
+    }
+
+    .footer {
+        .justify-content-md-between {
+            -webkit-box-pack: justify!important;
+                -ms-flex-pack: justify!important;
+                    justify-content: space-between!important;
+        }
+        .box-copyright {
+            img {
+                width: 37px;
+                height: 32px;
+            }
+            .copyright-text {
+                font-size: 14px;
+                margin-left: 5px;
+            }
+        }
+        .logo-dorohov {
+            .create-text {
+                display: none;
+            }
+
+            img {
+                width: 64px;
+                height: 18px;
             }
         }
     }
