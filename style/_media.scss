@@ -1,0 +1,215 @@
+@media (min-width: 1920px) {
+    header {
+        background-size: 100% 100%;
+    }
+
+    .partners {
+        background-size: 100% 100%;
+    }
+
+    .job .job-bg-noise {
+        background-size: 100% 100%;
+    }
+
+    .form .graph {
+        background-size: 100% 100%;
+    }
+
+    .team {
+        .img {
+            .text {
+                font-size: 36px;
+                max-width: 382px;
+            }
+        }
+    }
+}
+
+@media (max-width: 1475px) {
+    header .phone .text-phone {
+        font-size: .75rem;
+    }
+}
+
+@media (max-width: 1366px) { 
+    .services .element .title {
+        margin-top: -35px;
+    }
+    .services .element .title .text-title {
+        font-size: 1.868vw;
+        margin-top: 13px;
+    }
+
+    .services .element .title .text-number {
+        font-size: 4.032vw;
+    }
+
+    .team {
+        .img {
+            .text {
+                font-size: 20px;
+            }
+        }
+    }
+
+    
+}
+@media (max-width: 1260px) { 
+    .navigation {
+        display: none;
+    }
+    .navigation-mobile {
+        display: block !important;
+    }
+}
+
+
+@media (max-width: 1150px) { 
+    .team {
+        
+        .img {
+            .text {
+                font-size: 16px;
+                padding: 10px;
+                margin: -36px 0 0 0;
+            }
+        }
+
+        .el-jobs2 .img, .el-jobs3 .img {
+            .text {
+                text-align: center;
+            }
+        }
+    }
+}
+
+@media (max-width: 890px) { 
+    .partners-element {
+        display: none;
+    }
+    .partners-element-visible {
+        display: block;
+    }
+
+}
+
+@media (max-width: 768px) { 
+    .partners { 
+        height: auto;
+        .partners-title {
+            padding-top: 40px;
+        }
+        .btn2-partners {
+            margin: 20px auto 20px auto;
+            width: 200px;
+            display: block !important;
+            float: none;
+        }
+        h1 {
+            font-size: 40px !important;
+            text-align: center;
+        }
+        .justify-content-md-between {
+            -webkit-box-pack: center !important;
+                -ms-flex-pack: center !important;
+                    justify-content: center !important;
+        }
+        .partners-container {
+            .partners-element {
+                margin: 5px;
+                width: 115px;
+                height: 115px;
+            }
+        }
+    }
+    
+    header {
+        height: 594px;
+    }
+    .row {
+        padding: 0 20px 0 20px;
+    }
+
+    .team {
+
+        .persones-box {
+            margin-top: 40px;
+        }
+
+        .team-h1 {
+            font-size: 37px !important;
+        }
+
+        .team-h4 {
+            font-size: 20px !important;
+        }
+
+        .el-jobs1, .el-jobs2, .el-jobs3 {
+            padding: 0;
+        }
+        .el-jobs2, .el-jobs3 {
+            width: calc(50% - 10px);
+            max-width: 100%;
+            margin-top: 20px;
+        }
+        .el-jobs2 {
+            margin-right: 10px;
+        }
+        .el-jobs3 {
+            margin-left: 10px;
+        }
+    }
+
+
+
+
+    
+    .services .services__element {
+        display: none;
+    }   
+    .services .services__element:first-child {
+        display: block;
+    }
+
+    header .banner h1 {
+        font-size: 48px !important;
+        line-height: 47px !important;
+    }
+
+    header .banner h2 {
+        font-size: 24px !important;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .team {
+
+        .team-h1 {
+            margin-top: 20px;
+        }
+        .persones {
+            margin: 0 0 20px 0;
+            .persones-box {
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                    -ms-flex-direction: column;
+                        flex-direction: column;
+                
+                .persone-age {
+                    margin-top: 10px !important;
+                }
+
+                .persone-position, .persone-text, .persone-btn {
+                    display: none;
+                }
+
+                .img-person {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+    
+}
+

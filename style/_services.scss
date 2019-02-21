@@ -1,0 +1,52 @@
+.services {
+    background: $color4;
+    h1 {
+        color: #FFFFFF; 
+        margin-top: 123px;
+    }
+
+    .element {
+        margin-top: 60px;
+        max-width: 520px;
+        .img {
+            position: relative;
+            
+            .mask {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                left: 0;
+                top: 0;
+                background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.231) 51.38%, rgba(0, 0, 0, 0.7) 100%);
+            }
+        }
+
+        .title {
+            font-family: 'Roboto', sans-serif;
+            margin-top: -45px;
+            position: relative;
+            z-index: 100;
+            .text-number {
+                font-style: normal;
+                font-weight: bold;
+                line-height: normal;
+                font-size: 72px;
+                color: $color2;
+                margin-right: 15px;
+
+                span {
+                    border-bottom: solid 5px $color2;
+                }
+            }
+
+            .text-title {
+                font-style: normal;
+                font-weight: bold;
+                line-height: normal;
+                font-size: 2.268vw;
+                color: #FFFFFF;
+                margin-top: 25px;
+            }
+        }
+    }
+}

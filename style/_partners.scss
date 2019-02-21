@@ -1,0 +1,49 @@
+.partners {
+    background-image: url("../images/img/bg-partners.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    padding-bottom: 40px;
+    position: relative;
+
+    h1 {
+        color: #ffffff;
+    }
+
+    .partners-title {
+        padding-top: 100px;
+    }
+
+    .btn2-partners {      
+        margin-top: 25px;
+        float: right;
+    }
+
+    .partners-container {
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        .partners-element {
+            width: 245px;
+            height: 245px; 
+            background: rgba(0, 0, 0, 0.3);
+            border: solid 4px rgba(87, 186, 71, 0);
+            cursor: pointer;
+            margin-top: 20px;
+    
+            img {
+                opacity: .5;
+            }
+    
+            &:hover {
+                background: $color3;
+                border: solid 4px rgba(87, 186, 71, 1);
+    
+                img {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+
+    
+}
