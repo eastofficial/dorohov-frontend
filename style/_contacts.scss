@@ -17,8 +17,12 @@
             color: $color3;
         }
         .info-phone {
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            align-items: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
             margin-top: 63px;
 
             .text {
@@ -32,8 +36,12 @@
         }
 
         .info-email {
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            align-items: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
             margin-top: 26px;
 
             .text {
@@ -48,8 +56,12 @@
 
         .info-map {
             margin-top: 26px;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            align-items: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
 
             .text {
                 margin-left: 12px;
