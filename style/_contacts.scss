@@ -1,5 +1,67 @@
 .contacts {
     padding: 70px 0 70px 0; 
+
+    .row {
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+
+    .info-block-contacts {
+        
+        .text {
+            font-family: 'Roboto', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            line-height: normal;
+            font-size: 24px;
+            color: $color3;
+        }
+        .info-phone {
+            display: flex;
+            align-items: center;
+            margin-top: 63px;
+
+            .text {
+                margin-left: 12px;
+            }
+
+            img {
+                width: 38px;
+                height: 38px;
+            }
+        }
+
+        .info-email {
+            display: flex;
+            align-items: center;
+            margin-top: 26px;
+
+            .text {
+                margin-left: 12px;
+            }
+
+            img {
+                width: 38px;
+                height: 38px;
+            }
+        }
+
+        .info-map {
+            margin-top: 26px;
+            display: flex;
+            align-items: center;
+
+            .text {
+                margin-left: 12px;
+            }
+
+            img {
+                width: 38px;
+                height: 48px;
+            }
+        }
+    }
+
     .google-map {
         iframe {
             width: 100%;

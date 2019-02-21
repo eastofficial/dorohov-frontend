@@ -99,7 +99,32 @@
 
 }
 
-@media (max-width: 768px) { 
+@media (max-width: 768px) {
+    
+    .contacts {
+        .google-map {
+            display: none;
+        }
+
+        .text {
+            font-size: 15px !important;
+        }
+
+        .info-phone, .info-email {
+            img {
+                width: 21px !important;
+                height: 21px !important;
+            }
+        }
+
+        .info-map {
+            img {
+                width: 21px !important;
+                height: 26px !important;
+            }
+        }
+    }
+    
     .partners { 
         height: auto;
         .partners-title {

@@ -514,6 +514,43 @@ header {
 
 .contacts {
   padding: 70px 0 70px 0; }
+  .contacts .row {
+    margin-right: 0 !important;
+    margin-left: 0 !important; }
+  .contacts .info-block-contacts .text {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 24px;
+    color: #014671; }
+  .contacts .info-block-contacts .info-phone {
+    display: flex;
+    align-items: center;
+    margin-top: 63px; }
+    .contacts .info-block-contacts .info-phone .text {
+      margin-left: 12px; }
+    .contacts .info-block-contacts .info-phone img {
+      width: 38px;
+      height: 38px; }
+  .contacts .info-block-contacts .info-email {
+    display: flex;
+    align-items: center;
+    margin-top: 26px; }
+    .contacts .info-block-contacts .info-email .text {
+      margin-left: 12px; }
+    .contacts .info-block-contacts .info-email img {
+      width: 38px;
+      height: 38px; }
+  .contacts .info-block-contacts .info-map {
+    margin-top: 26px;
+    display: flex;
+    align-items: center; }
+    .contacts .info-block-contacts .info-map .text {
+      margin-left: 12px; }
+    .contacts .info-block-contacts .info-map img {
+      width: 38px;
+      height: 48px; }
   .contacts .google-map iframe {
     width: 100%;
     height: 550px; }
@@ -523,7 +560,11 @@ header {
   font-family: 'Roboto', sans-serif;
   padding: 10px 0 10px 0; }
   .footer .box-copyright {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center; }
     .footer .box-copyright img {
       width: 81px;
@@ -536,10 +577,18 @@ header {
       color: #57BA47;
       margin: 0 0 0 15px; }
   .footer .box-center {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center; }
     .footer .box-center .box-telephone {
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
       align-items: center;
       margin-right: 15px; }
       .footer .box-center .box-telephone img {
@@ -553,7 +602,11 @@ header {
         font-size: 18px;
         color: #FAF7FE; }
     .footer .box-center .box-email {
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
       align-items: center; }
       .footer .box-center .box-email img {
         width: 26px;
@@ -566,7 +619,11 @@ header {
         font-size: 18px;
         color: #FAF7FE; }
   .footer .logo-dorohov {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center; }
     .footer .logo-dorohov img {
       width: 101px;
@@ -634,6 +691,17 @@ header {
   .partners-element-visible {
     display: block; } }
 @media (max-width: 768px) {
+  .contacts .google-map {
+    display: none; }
+  .contacts .text {
+    font-size: 15px !important; }
+  .contacts .info-phone img, .contacts .info-email img {
+    width: 21px !important;
+    height: 21px !important; }
+  .contacts .info-map img {
+    width: 21px !important;
+    height: 26px !important; }
+
   .partners {
     height: auto; }
     .partners .partners-title {
